@@ -51,7 +51,7 @@ export function Footer() {
       </div>
       <hr className="my-8 border-blue-gray-50" />
       <Typography color="blue-gray" className="text-center font-normal">
-        &copy; 2023 T-AI 
+        &copy; 2023 T-AI. All rights reserved. 
       </Typography>
     </footer>
   );

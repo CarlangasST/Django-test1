@@ -1,15 +1,16 @@
 import Footer from "components/navigation/Footer"
 import Navbar from "components/navigation/Navbar"
-import Header from "components/navigation/home/Header"
 import Layout from "hocs/layouts/Layout"
 
-function Home(){
+function EAssist(){
     return(
         <Layout>
             <Navbar />
-            <Header />
+            <div className="pt-28">
+                E-Assist
+            </div>
                 <Footer />
         </Layout>
     )
 }
-export default Home
+export default EAssist

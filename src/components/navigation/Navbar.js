@@ -20,12 +20,6 @@ const solutions = [
       icon: IconThree,
     },
     {
-      name: 'Blog',
-      description: 'Keep track of your growth',
-      href: '/blog',
-      icon: IconThree,
-    },
-    {
       name: 'Contacto',
       description: 'Keep track of your growth',
       href: '/contacto',
@@ -69,9 +63,8 @@ const solutions = [
                     />
                     </Link>
                     <div className="ml-4 mt-2 flex-shrink-0">
-                    <NavLink to='/E-Assist' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-blue-500 transition duration-300 ease-in-out mx-4">E-Assist</NavLink>
+                    <NavLink to='/eassist' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-blue-500 transition duration-300 ease-in-out mx-4">E-Assist</NavLink>
                     <NavLink to='/nosotros' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-blue-500 transition duration-300 ease-in-out mx-4">Nosotros</NavLink>
-                    <NavLink to='/blog' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-blue-500 transition duration-300 ease-in-out mx-4">Blog</NavLink>
                     <NavLink to='/contacto' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-blue-500 transition duration-300 ease-in-out mx-4">Contacto</NavLink>
                     <NavLink to='/registro' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-blue-500 transition duration-300 ease-in-out mx-4">Registro</NavLink>
                     

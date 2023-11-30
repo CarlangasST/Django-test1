@@ -1,15 +1,16 @@
 import Footer from "components/navigation/Footer"
 import Navbar from "components/navigation/Navbar"
-import Header from "components/navigation/home/Header"
 import Layout from "hocs/layouts/Layout"
 
-function Home(){
+function Contacto(){
     return(
         <Layout>
             <Navbar />
-            <Header />
+            <div className="pt-28">
+                Contacto
+            </div>
                 <Footer />
         </Layout>
     )
 }
-export default Home
+export default Contacto
